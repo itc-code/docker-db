@@ -1,7 +1,7 @@
 install:
-	sudo apt install docker-compose	&& \
-	sudo usermod -aG docker $$USER && \
-	sudo service docker restart
+	sudo apt install docker-compose \
+	&& sudo usermod -aG docker $$USER \
+	&& sudo service docker restart
 
 
 rm:
